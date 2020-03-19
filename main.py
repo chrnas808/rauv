@@ -43,7 +43,7 @@ surge() = thruster(0,1,2,3)
 heave() = thruster(4,5,6,7)
 yaw() = thruster(0,1,2,3)
 sway() = thruster(0,1,2,3)
-pitch = thruster(4,5,6,7)
+pitch() = thruster(4,5,6,7)
 
 # make sure the vehicle is operating
 while auv == running(in water, powered on, != shutdown):
